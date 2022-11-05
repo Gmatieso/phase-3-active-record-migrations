@@ -1,3 +1,5 @@
+#This file is used by convention to give Active Record the necessary details about how to connect to our database e.g which adatpter we are using i.e Sqlite
+#Active record also support other types of Adapter such as MySQL and PostgreSQL
 development:
   adapter: sqlite3
   database: db/development.sqlite3
