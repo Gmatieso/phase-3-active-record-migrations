@@ -1,3 +1,6 @@
+#The simplest way to work with migrations is through RAKE Tasks that we are given through a new gem, the 
+#Sinatra-active record gem.  This gem provide some common Rake tasks for working with Active Record.
+
 require_relative './config/environment'
 require 'sinatra/activerecord/rake'
 
